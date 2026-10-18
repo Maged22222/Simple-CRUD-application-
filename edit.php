@@ -3,6 +3,8 @@ require_once "pdo.php";
 require_once "util.php";
 session_start();
 
+
+
 if ( ! isset($_SESSION['user_id']) && ! isset($_SESSION['name']) ) {
     die("ACCESS DENIED");
 }
