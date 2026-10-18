@@ -4,15 +4,9 @@ require_once "util.php";
 session_start();
 
 
-
 if ( ! isset($_SESSION['user_id']) && ! isset($_SESSION['name']) ) {
     die("ACCESS DENIED");
 }
-
-
-
-
-
 
 
 if ( ! isset($_REQUEST['profile_id']) ) {
