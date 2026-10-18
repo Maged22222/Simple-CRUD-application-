@@ -5,6 +5,13 @@ session_start();
 
 
 
+
+
+
+
+
+
+
 if ( ! isset($_SESSION['user_id']) && ! isset($_SESSION['name']) ) {
     die("ACCESS DENIED");
 }
