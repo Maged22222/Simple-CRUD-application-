@@ -9,6 +9,12 @@ if ( ! isset($_SESSION['user_id']) && ! isset($_SESSION['name']) ) {
     die("ACCESS DENIED");
 }
 
+
+
+
+
+
+
 if ( ! isset($_REQUEST['profile_id']) ) {
     $_SESSION['error'] = "Missing profile_id";
     header('Location: index.php');
